@@ -2,7 +2,12 @@
 
 > Status: Under Development 🚧
 
-Modern URL shortening platform built with Python and Flask.
+# 🚀 ShortLink AI
+
+A modern URL shortening platform built entirely from Android using Termux, Python, Flask, GitHub and Render.
+
+🔗 Live Demo:
+https://shortlink-ai.onrender.com
 
 ## Features Completed
 
