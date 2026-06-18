@@ -1,0 +1,240 @@
+n:0;
+    padding:0;
+        box-sizing:border-box;
+}
+
+body{
+
+	    min-height:100vh;
+
+	        display:flex;
+
+		    justify-content:center;
+
+		        align-items:center;
+
+			    background:#050816;
+
+			        font-family:Arial,sans-serif;
+
+				    overflow:hidden;
+
+				        padding:20px;
+				}
+
+				.background-glow{
+
+					    position:fixed;
+
+					        width:500px;
+
+						    height:500px;
+
+						        border-radius:50%;
+
+							    background:#00d4ff;
+
+							        filter:blur(180px);
+
+								    opacity:0.12;
+
+								        z-index:0;
+								}
+
+								.container{
+
+									    width:100%;
+
+									        display:flex;
+
+										    justify-content:center;
+
+										        align-items:center;
+
+											    z-index:1;
+										    }
+
+										    .card{
+
+											        width:100%;
+
+												    max-width:520px;
+
+												        padding:35px;
+
+													    border-radius:28px;
+
+													        text-align:center;
+
+														    background:rgba(255,255,255,0.05);
+
+														        backdrop-filter:blur(20px);
+
+															    border:1px solid rgba(255,255,255,0.08);
+
+															        box-shadow:
+																    0 0 50px rgba(0,212,255,0.15);
+
+																        color:white;
+																}
+
+																.logo{
+
+																	    font-size:4rem;
+
+																	        margin-bottom:15px;
+																	}
+
+																	h1{
+
+																		    font-size:3rem;
+
+																		        margin-bottom:15px;
+
+																			    color:white;
+																		    }
+
+																		    .subtitle{
+
+																			        color:#a8b2c7;
+
+																				    font-size:1.1rem;
+
+																				        line-height:1.6;
+
+																					    margin-bottom:30px;
+																				    }
+
+																				    input{
+
+																					        width:100%;
+
+																						    padding:18px;
+
+																						        border:none;
+
+																							    outline:none;
+
+																							        border-radius:14px;
+
+																								    background:#0f172a;
+
+																								        color:white;
+
+																									    font-size:16px;
+
+																									        margin-bottom:18px;
+																									}
+
+																									input::placeholder{
+
+																										    color:#7b8794;
+																									    }
+
+																									    button{
+
+																										        width:100%;
+
+																											    padding:18px;
+
+																											        border:none;
+
+																												    border-radius:14px;
+
+																												        background:#00d4ff;
+
+																													    color:black;
+
+																													        font-size:17px;
+
+																														    font-weight:bold;
+
+																														        cursor:pointer;
+
+																															    transition:0.3s;
+																														    }
+
+																														    button:hover{
+
+																															        transform:translateY(-3px);
+
+																																    box-shadow:
+																																        0 0 25px #00d4ff,
+																																	    0 0 50px rgba(0,212,255,0.6);
+																																    }
+
+																																    .features{
+
+																																	        display:flex;
+
+																																		    justify-content:center;
+
+																																		        gap:10px;
+
+																																			    flex-wrap:wrap;
+
+																																			        margin-top:25px;
+																																			}
+
+																																			.feature{
+
+																																				    padding:10px 14px;
+
+																																				        border-radius:12px;
+
+																																					    background:rgba(255,255,255,0.05);
+
+																																					        color:#bfc9d9;
+
+																																						    font-size:14px;
+																																					    }
+
+																																					    .stats{
+
+																																						        display:flex;
+
+																																							    justify-content:space-between;
+
+																																							        margin-top:35px;
+
+																																								    gap:15px;
+																																							    }
+
+																																							    .stat{
+
+																																								        flex:1;
+																																								}
+
+																																								.stat h3{
+
+																																									    color:#00d4ff;
+
+																																									        margin-bottom:5px;
+
+																																										    font-size:1.4rem;
+																																									    }
+
+																																									    .stat span{
+
+																																										        color:#8892a6;
+
+																																											    font-size:14px;
+																																										    }
+
+																																										    @media(max-width:600px){
+
+																																											        .card{
+
+																																													        padding:25px;
+																																														    }
+
+																																														        h1{
+
+																																																        font-size:2.5rem;
+																																																	    }
+
+																																																	        .stats{
+
+																																																			        flex-direction:column;
+																																																				    }
+																																																			    }
